@@ -27,7 +27,7 @@ export default function GraficoPrensa() {
     const {width} = useWindowSize();
 
     useEffect(() => {
-        fetch('/press.json')
+        fetch(`${import.meta.env.BASE_URL}/press.json`)
             .then(response => response.json())
             .then(json => {
                 // Formatear datos para Recharts

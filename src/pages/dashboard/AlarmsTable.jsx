@@ -35,7 +35,7 @@ export default function AlarmsTable() {
     const [selectedKeys, setSelectedKeys] = useState(['id', 'maquina.nombre', 'tipo', 'prioridad', 'incidencia.descripcion']);
 
     useEffect(() => {
-        fetch('/alarms.json')
+        fetch(`${import.meta.env.BASE_URL}/alarms.json`)
             .then(response => response.json())
             .then(data => setAlarms(data))
             .catch(error => console.error(error))

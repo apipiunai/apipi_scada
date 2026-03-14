@@ -1,0 +1,450 @@
+[
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T16:30:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 188.4,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 48.1,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 13.6,
+        "voltaje_linea": 380,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 1.8,
+        "pico": 3.6,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "mantenimiento",
+    "contador_piezas": 145202
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T16:35:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 177.2,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 53.5,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 13.3,
+        "voltaje_linea": 415,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.1,
+        "pico": 4.5,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145207
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T16:40:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 195.2,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 55.1,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 10.8,
+        "voltaje_linea": 415,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.5,
+        "pico": 4.9,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145210
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T16:45:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 201.4,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 64.6,
+        "unidad": "°C",
+        "alarma": true
+      },
+      "consumo_energetico": {
+        "potencia_activa": 11.0,
+        "voltaje_linea": 400,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 3.1,
+        "pico": 6.7,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145220
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T16:50:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 197.5,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 64.2,
+        "unidad": "°C",
+        "alarma": true
+      },
+      "consumo_energetico": {
+        "potencia_activa": 14.7,
+        "voltaje_linea": 400,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.7,
+        "pico": 6.1,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145218
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T16:55:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 195.9,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 61.7,
+        "unidad": "°C",
+        "alarma": true
+      },
+      "consumo_energetico": {
+        "potencia_activa": 11.7,
+        "voltaje_linea": 400,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 1.7,
+        "pico": 3.4,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145237
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:00:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 178.2,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 51.2,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 10.6,
+        "voltaje_linea": 380,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 1.8,
+        "pico": 3.7,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145238
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:05:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 202.8,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 59.4,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 14.6,
+        "voltaje_linea": 380,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.8,
+        "pico": 5.9,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145251
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:10:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 193.2,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 61.1,
+        "unidad": "°C",
+        "alarma": true
+      },
+      "consumo_energetico": {
+        "potencia_activa": 13.5,
+        "voltaje_linea": 400,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 1.7,
+        "pico": 3.5,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145226
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:15:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 200.1,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 57.2,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 10.6,
+        "voltaje_linea": 415,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.4,
+        "pico": 4.8,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145229
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:20:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 189.6,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 57.6,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 13.7,
+        "voltaje_linea": 415,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.7,
+        "pico": 5.0,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "mantenimiento",
+    "contador_piezas": 145242
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:25:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 205.0,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 51.2,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 14.0,
+        "voltaje_linea": 380,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 3.0,
+        "pico": 6.3,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145257
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:30:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 181.2,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 51.4,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 11.0,
+        "voltaje_linea": 415,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.6,
+        "pico": 5.4,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145238
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:35:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 190.9,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 63.2,
+        "unidad": "°C",
+        "alarma": true
+      },
+      "consumo_energetico": {
+        "potencia_activa": 14.2,
+        "voltaje_linea": 415,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.0,
+        "pico": 4.2,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145293
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:40:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 176.5,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 56.7,
+        "unidad": "°C",
+        "alarma": false
+      },
+      "consumo_energetico": {
+        "potencia_activa": 13.4,
+        "voltaje_linea": 380,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.7,
+        "pico": 5.7,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145258
+  },
+  {
+    "maquina_id": "Press-A",
+    "timestamp": "2026-03-13T17:45:00Z",
+    "sensores": {
+      "presion": {
+        "valor": 191.4,
+        "unidad": "bar",
+        "limite_max": 220.0
+      },
+      "temperatura_aceite": {
+        "valor": 63.2,
+        "unidad": "°C",
+        "alarma": true
+      },
+      "consumo_energetico": {
+        "potencia_activa": 11.3,
+        "voltaje_linea": 380,
+        "unidad": "kW"
+      },
+      "vibracion": {
+        "rms": 2.8,
+        "pico": 5.1,
+        "unidad": "mm/s"
+      }
+    },
+    "estado_ciclo": "en_ejecucion",
+    "contador_piezas": 145322
+  }
+]
