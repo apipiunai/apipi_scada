@@ -1,0 +1,842 @@
+[
+    {
+        "id": 4,
+        "maquina": {
+            "id": "INJ-01",
+            "nombre": "Injection-M1",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "parada",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T08:15:00Z",
+            "fecha_fin": "2026-03-13T09:30:00Z",
+            "duracion_estimada_min": 45
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Mecánica",
+            "descripcion": "Fuga de aceite en el cilindro principal.",
+            "operario_reporta_id": "OP-101",
+            "operario_reporta_nombre": "Lorena"
+        },
+        "solucion": {
+            "descripcion": "Reemplazo de juntas tóricas y revisión de manguitos.",
+            "operario_solucion_id": "MNT-05",
+            "repuestos_utilizados": ["Junta OR-502", "Manguito hidráulico 1m"]
+        }
+    },
+    {
+        "id": 5,
+        "maquina": {
+            "id": "CNJ-02",
+            "nombre": "Conveyor-Belt-02",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "averia",
+        "estado": "abierto",
+        "prioridad": "critica",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T15:10:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 120
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Eléctrica",
+            "descripcion": "La cinta transportadora no arranca, posible fallo en variador.",
+            "operario_reporta_id": "OP-202",
+            "operario_reporta_nombre": "Carlos"
+        },
+        "solucion": {
+            "descripcion": "Diagnosticando tarjeta de control del variador.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 6,
+        "maquina": {
+            "id": "PRE-01",
+            "nombre": "Prensa-Hidraulica-P1",
+            "seccion": "Estampación"
+        },
+        "tipo": "mantenimiento",
+        "estado": "en_proceso",
+        "prioridad": "baja",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T07:00:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 180
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Preventivo",
+            "descripcion": "Revisión anual de válvulas de seguridad.",
+            "operario_reporta_id": "SYS-01",
+            "operario_reporta_nombre": "Sistema"
+        },
+        "solucion": {
+            "descripcion": "Desmontaje de válvulas para limpieza y calibrado.",
+            "operario_solucion_id": "MNT-12",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 7,
+        "maquina": {
+            "id": "INJ-05",
+            "nombre": "Injection-M5",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "parada",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-12T22:30:00Z",
+            "fecha_fin": "2026-03-12T23:45:00Z",
+            "duracion_estimada_min": 60
+        },
+        "turno": 3,
+        "incidencia": {
+            "categoria": "Calidad",
+            "descripcion": "Piezas con rebabas excesivas.",
+            "operario_reporta_id": "OP-303",
+            "operario_reporta_nombre": "Pedro"
+        },
+        "solucion": {
+            "descripcion": "Limpieza de cara del molde y ajuste de parámetros de temperatura.",
+            "operario_solucion_id": "MNT-09",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 8,
+        "maquina": {
+            "id": "ROB-02",
+            "nombre": "Robot-Arm-R2",
+            "seccion": "Soldadura"
+        },
+        "tipo": "averia",
+        "estado": "abierto",
+        "prioridad": "critica",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T14:20:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 240
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Programación",
+            "descripcion": "El robot pierde el punto de origen tras el reinicio.",
+            "operario_reporta_id": "OP-105",
+            "operario_reporta_nombre": "Sara"
+        },
+        "solucion": {
+            "descripcion": "Re calibración de ejes necesaria.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 9,
+        "maquina": {
+            "id": "CNJ-05",
+            "nombre": "Conveyor-Belt-05",
+            "seccion": "Embalaje"
+        },
+        "tipo": "parada",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T09:00:00Z",
+            "fecha_fin": "2026-03-13T09:15:00Z",
+            "duracion_estimada_min": 20
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Obstrucción",
+            "descripcion": "Caja atascada en rodillos de salida.",
+            "operario_reporta_id": "OP-210",
+            "operario_reporta_nombre": "Miguel"
+        },
+        "solucion": {
+            "descripcion": "Retirada manual del obstrucción y reinicio de línea.",
+            "operario_solucion_id": "OP-210",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 10,
+        "maquina": {
+            "id": "INJ-03",
+            "nombre": "Injection-M3",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "averia",
+        "estado": "en_proceso",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T12:45:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 90
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Térmica",
+            "descripcion": "Fallo en calentador de zona 4, temperatura inestable.",
+            "operario_reporta_id": "OP-882",
+            "operario_reporta_nombre": "Unai"
+        },
+        "solucion": {
+            "descripcion": "Sustitución de resistencia calefactora en proceso.",
+            "operario_solucion_id": "MNT-02",
+            "repuestos_utilizados": ["Banda calefactora 500W"]
+        }
+    },
+    {
+        "id": 11,
+        "maquina": {
+            "id": "COR-01",
+            "nombre": "Cortadora-Laser-L1",
+            "seccion": "Troquelado"
+        },
+        "tipo": "mantenimiento",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "tiempos": {
+            "fecha_inicio": "2026-03-11T10:00:00Z",
+            "fecha_fin": "2026-03-11T12:00:00Z",
+            "duracion_estimada_min": 120
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Limpieza",
+            "descripcion": "Limpieza de lentes y espejos del sistema láser.",
+            "operario_reporta_id": "SYS-01",
+            "operario_reporta_nombre": "Sistema"
+        },
+        "solucion": {
+            "descripcion": "Limpieza completada con alcohol isopropílico.",
+            "operario_solucion_id": "MNT-04",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 12,
+        "maquina": {
+            "id": "ENS-04",
+            "nombre": "Ensambladora-Auto-A4",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "parada",
+        "estado": "abierto",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T16:00:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 30
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Neumática",
+            "descripcion": "Gripper neumático no suelta la pieza correctamente.",
+            "operario_reporta_id": "OP-405",
+            "operario_reporta_nombre": "Lucía"
+        },
+        "solucion": {
+            "descripcion": "Pendiente revisión de presión y ventosas.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 13,
+        "maquina": {
+            "id": "INJ-08",
+            "nombre": "Injection-M8",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "averia",
+        "estado": "cerrado",
+        "prioridad": "critica",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T05:20:00Z",
+            "fecha_fin": "2026-03-13T08:00:00Z",
+            "duracion_estimada_min": 150
+        },
+        "turno": 3,
+        "incidencia": {
+            "categoria": "Hidráulica",
+            "descripcion": "Rotura de manguera hidráulica principal.",
+            "operario_reporta_id": "OP-600",
+            "operario_reporta_nombre": "Javier"
+        },
+        "solucion": {
+            "descripcion": "Reemplazo de manguera y reposición de nivel de aceite.",
+            "operario_solucion_id": "MNT-11",
+            "repuestos_utilizados": ["Manguera Hidráulica 1/2", "Aceite Hidráulico 20L"]
+        }
+    },
+    {
+        "id": 14,
+        "maquina": {
+            "id": "CNJ-02",
+            "nombre": "Conveyor-Belt-02",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "parada",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T11:00:00Z",
+            "fecha_fin": "2026-03-13T11:10:00Z",
+            "duracion_estimada_min": 10
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Seguridad",
+            "descripcion": "Activación falsa de célula fotoeléctrica.",
+            "operario_reporta_id": "OP-202",
+            "operario_reporta_nombre": "Carlos"
+        },
+        "solucion": {
+            "descripcion": "Limpieza de sensor y ajuste de sensibilidad.",
+            "operario_solucion_id": "OP-202",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 15,
+        "maquina": {
+            "id": "PRE-03",
+            "nombre": "Prensa-Hidraulica-P3",
+            "seccion": "Estampación"
+        },
+        "tipo": "averia",
+        "estado": "en_proceso",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T14:30:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 180
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Mecánica",
+            "descripcion": "Ruido anormal en la transmisión del motor principal.",
+            "operario_reporta_id": "OP-501",
+            "operario_reporta_nombre": "Ana"
+        },
+        "solucion": {
+            "descripcion": "Revisando cojinetes y cadena de transmisión.",
+            "operario_solucion_id": "MNT-07",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 16,
+        "maquina": {
+            "id": "ROB-05",
+            "nombre": "Robot-Arm-R5",
+            "seccion": "Soldadura"
+        },
+        "tipo": "mantenimiento",
+        "estado": "abierto",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T15:45:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 45
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Calibración",
+            "descripcion": "Desviación en el TCP (Tool Center Point).",
+            "operario_reporta_id": "OP-120",
+            "operario_reporta_nombre": "Raúl"
+        },
+        "solucion": {
+            "descripcion": "En espera de herramientas de calibración.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 17,
+        "maquina": {
+            "id": "INJ-03",
+            "nombre": "Injection-M3",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "parada",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T08:30:00Z",
+            "fecha_fin": "2026-03-13T09:00:00Z",
+            "duracion_estimada_min": 45
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Materiales",
+            "descripcion": "Atasco en la tolva de alimentación de material.",
+            "operario_reporta_id": "OP-105",
+            "operario_reporta_nombre": "Sara"
+        },
+        "solucion": {
+            "descripcion": "Desatasco manual y limpieza del imán separador.",
+            "operario_solucion_id": "OP-105",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 18,
+        "maquina": {
+            "id": "CNJ-09",
+            "nombre": "Conveyor-Belt-09",
+            "seccion": "Logística"
+        },
+        "tipo": "averia",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-12T18:00:00Z",
+            "fecha_fin": "2026-03-12T20:30:00Z",
+            "duracion_estimada_min": 180
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Eléctrica",
+            "descripcion": "Quemadura de contactor de marcha principal.",
+            "operario_reporta_id": "OP-333",
+            "operario_reporta_nombre": "Elena"
+        },
+        "solucion": {
+            "descripcion": "Reemplazo de contactor y revisión de cableado.",
+            "operario_solucion_id": "MNT-02",
+            "repuestos_utilizados": ["Contactor 25A", "Bornes de conexión"]
+        }
+    },
+    {
+        "id": 19,
+        "maquina": {
+            "id": "ENS-02",
+            "nombre": "Ensambladora-Auto-A2",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "parada",
+        "estado": "abierto",
+        "prioridad": "critica",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T14:55:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 20
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Calidad",
+            "descripcion": "Fallo en estación de visión artificial, rechaza piezas buenas.",
+            "operario_reporta_id": "OP-405",
+            "operario_reporta_nombre": "Lucía"
+        },
+        "solucion": {
+            "descripcion": "Analizando parámetros de iluminación y umbral de contraste.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 20,
+        "maquina": {
+            "id": "COR-03",
+            "nombre": "Cortadora-Laser-L3",
+            "seccion": "Troquelado"
+        },
+        "tipo": "mantenimiento",
+        "estado": "en_proceso",
+        "prioridad": "baja",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T12:00:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 60
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Software",
+            "descripcion": "Actualización de firmware del controlador de movimiento.",
+            "operario_reporta_id": "IT-02",
+            "operario_reporta_nombre": "Soporte IT"
+        },
+        "solucion": {
+            "descripcion": "Cargando actualización v2.5.1.",
+            "operario_solucion_id": "IT-02",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 21,
+        "maquina": {
+            "id": "PRE-02",
+            "nombre": "Prensa-Hidraulica-P2",
+            "seccion": "Estampación"
+        },
+        "tipo": "averia",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T06:10:00Z",
+            "fecha_fin": "2026-03-13T07:30:00Z",
+            "duracion_estimada_min": 90
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Neumática",
+            "descripcion": "Fuga de aire detectada en válvula de expulsión.",
+            "operario_reporta_id": "OP-600",
+            "operario_reporta_nombre": "Javier"
+        },
+        "solucion": {
+            "descripcion": "Cambio de juntas en válvula neumática.",
+            "operario_solucion_id": "MNT-08",
+            "repuestos_utilizados": ["Kit juntas neumáticas V23"]
+        }
+    },
+    {
+        "id": 22,
+        "maquina": {
+            "id": "INJ-10",
+            "nombre": "Injection-M10",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "parada",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T15:20:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 50
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Sensorica",
+            "descripcion": "Sensor de posición del carro de inyección defectuoso.",
+            "operario_reporta_id": "OP-882",
+            "operario_reporta_nombre": "Unai"
+        },
+        "solucion": {
+            "descripcion": "Verificando cableado del sensor inductivo.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 23,
+        "maquina": {
+            "id": "ROB-01",
+            "nombre": "Robot-Arm-R1",
+            "seccion": "Soldadura"
+        },
+        "tipo": "mantenimiento",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T07:30:00Z",
+            "fecha_fin": "2026-03-13T08:15:00Z",
+            "duracion_estimada_min": 45
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Preventivo",
+            "descripcion": "Cambio de antorcha de soldadura desgastada.",
+            "operario_reporta_id": "MNT-01",
+            "operario_reporta_nombre": "Técnico Mantenimiento"
+        },
+        "solucion": {
+            "descripcion": "Instalación de nueva antorcha y calibración.",
+            "operario_solucion_id": "MNT-01",
+            "repuestos_utilizados": ["Antorcha Soldadura Modelo X"]
+        }
+    },
+    {
+        "id": 24,
+        "maquina": {
+            "id": "CNJ-04",
+            "nombre": "Conveyor-Belt-04",
+            "seccion": "Embalaje"
+        },
+        "tipo": "parada",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T13:00:00Z",
+            "fecha_fin": "2026-03-13T13:05:00Z",
+            "duracion_estimada_min": 5
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Operación",
+            "descripcion": "Parada por fin de lote y limpieza.",
+            "operario_reporta_id": "OP-210",
+            "operario_reporta_nombre": "Miguel"
+        },
+        "solucion": {
+            "descripcion": "Limpieza realizada.",
+            "operario_solucion_id": "OP-210",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 25,
+        "maquina": {
+            "id": "ENS-01",
+            "nombre": "Ensambladora-Auto-A1",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "averia",
+        "estado": "en_proceso",
+        "prioridad": "critica",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T14:00:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 300
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Mecánica",
+            "descripcion": "Eje de levas desalineado causando fallos de sincronización.",
+            "operario_reporta_id": "OP-101",
+            "operario_reporta_nombre": "Lorena"
+        },
+        "solucion": {
+            "descripcion": "Desmontaje de carcasa para acceso a levas.",
+            "operario_solucion_id": "MNT-05",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 26,
+        "maquina": {
+            "id": "INJ-06",
+            "nombre": "Injection-M6",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "parada",
+        "estado": "abierto",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T15:55:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 60
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Refrigeración",
+            "descripcion": "Temperatura de aceite elevada.",
+            "operario_reporta_id": "OP-303",
+            "operario_reporta_nombre": "Pedro"
+        },
+        "solucion": {
+            "descripcion": "Revisión del enfriador de aceite (chiller).",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 27,
+        "maquina": {
+            "id": "PRE-04",
+            "nombre": "Prensa-Hidraulica-P4",
+            "seccion": "Estampación"
+        },
+        "tipo": "averia",
+        "estado": "cerrado",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T09:15:00Z",
+            "fecha_fin": "2026-03-13T11:30:00Z",
+            "duracion_estimada_min": 120
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Electrónica",
+            "descripcion": "Pantalla HMI en blanco.",
+            "operario_reporta_id": "OP-501",
+            "operario_reporta_nombre": "Ana"
+        },
+        "solucion": {
+            "descripcion": "Resoldar conexiones internas de la pantalla y reinicio.",
+            "operario_solucion_id": "MNT-04",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 28,
+        "maquina": {
+            "id": "ROB-03",
+            "nombre": "Robot-Arm-R3",
+            "seccion": "Pintura"
+        },
+        "tipo": "mantenimiento",
+        "estado": "cerrado",
+        "prioridad": "baja",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T08:00:00Z",
+            "fecha_fin": "2026-03-13T10:00:00Z",
+            "duracion_estimada_min": 120
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Limpieza",
+            "descripcion": "Limpieza de boquillas de pulverización.",
+            "operario_reporta_id": "OP-430",
+            "operario_reporta_nombre": "David"
+        },
+        "solucion": {
+            "descripcion": "Boquillas desmontadas y limpiadas con disolvente.",
+            "operario_solucion_id": "OP-430",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 29,
+        "maquina": {
+            "id": "CNJ-01",
+            "nombre": "Conveyor-Belt-01",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "parada",
+        "estado": "en_proceso",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T14:40:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 30
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Seguridad",
+            "descripcion": "Guarda de seguridad desalineada.",
+            "operario_reporta_id": "OP-202",
+            "operario_reporta_nombre": "Carlos"
+        },
+        "solucion": {
+            "descripcion": "Realineando bisagras y microswitch.",
+            "operario_solucion_id": "MNT-08",
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 30,
+        "maquina": {
+            "id": "INJ-02",
+            "nombre": "Injection-M2",
+            "seccion": "Inyección Plásticos"
+        },
+        "tipo": "averia",
+        "estado": "abierto",
+        "prioridad": "critica",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T16:05:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 240
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Hidráulica",
+            "descripcion": "Bomba hidráulica ruidosa y sin presión estable.",
+            "operario_reporta_id": "OP-105",
+            "operario_reporta_nombre": "Sara"
+        },
+        "solucion": {
+            "descripcion": "Posible avería grave de bomba, en diagnóstico.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 31,
+        "maquina": {
+            "id": "ENS-03",
+            "nombre": "Ensambladora-Auto-A3",
+            "seccion": "Ensamblaje"
+        },
+        "tipo": "mantenimiento",
+        "estado": "cerrado",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T11:30:00Z",
+            "fecha_fin": "2026-03-13T12:15:00Z",
+            "duracion_estimada_min": 60
+        },
+        "turno": 1,
+        "incidencia": {
+            "categoria": "Lubricación",
+            "descripcion": "Aplicación de grasa en guías lineales.",
+            "operario_reporta_id": "MNT-12",
+            "operario_reporta_nombre": "Técnico Mantenimiento"
+        },
+        "solucion": {
+            "descripcion": "Lubricación completada según plan.",
+            "operario_solucion_id": "MNT-12",
+            "repuestos_utilizados": ["Grasa Lithium EP2"]
+        }
+    },
+    {
+        "id": 32,
+        "maquina": {
+            "id": "COR-02",
+            "nombre": "Cortadora-Laser-L2",
+            "seccion": "Troquelado"
+        },
+        "tipo": "parada",
+        "estado": "abierto",
+        "prioridad": "alta",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T16:10:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 40
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Refrigeración",
+            "descripcion": "Alarma de temperatura del chiller del láser.",
+            "operario_reporta_id": "OP-220",
+            "operario_reporta_nombre": "Cristina"
+        },
+        "solucion": {
+            "descripcion": "Verificando flujo de agua y nivel de refrigerante.",
+            "operario_solucion_id": null,
+            "repuestos_utilizados": []
+        }
+    },
+    {
+        "id": 33,
+        "maquina": {
+            "id": "PRE-01",
+            "nombre": "Prensa-Hidraulica-P1",
+            "seccion": "Estampación"
+        },
+        "tipo": "averia",
+        "estado": "en_proceso",
+        "prioridad": "media",
+        "tiempos": {
+            "fecha_inicio": "2026-03-13T14:00:00Z",
+            "fecha_fin": null,
+            "duracion_estimada_min": 90
+        },
+        "turno": 2,
+        "incidencia": {
+            "categoria": "Sensorica",
+            "descripcion": "Fallo en sensor de final de carrera inferior.",
+            "operario_reporta_id": "OP-600",
+            "operario_reporta_nombre": "Javier"
+        },
+        "solucion": {
+            "descripcion": "Ajuste mecánico del actuador del sensor.",
+            "operario_solucion_id": "MNT-07",
+            "repuestos_utilizados": []
+        }
+    }
+]
