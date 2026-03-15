@@ -83,7 +83,7 @@ export default function ThemeProvider({ children }) {
 
 
     return (
-        <ThemeContext.Provider value={{ theme, setMode, ThemeComponent }}>
+        <ThemeContext.Provider value={{ theme, setMode, ThemeComponent, mode }}>
             {children}
         </ThemeContext.Provider>
     )

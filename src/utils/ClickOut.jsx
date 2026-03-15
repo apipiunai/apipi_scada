@@ -1,4 +1,4 @@
-
+import { useEffect } from "react";
 
 
 export default function ClickOut({ref, action, children}) {
@@ -16,5 +16,5 @@ export default function ClickOut({ref, action, children}) {
     }, [ref, action]);
 
 
-    return ({children})
+    return (<>{children}</>)
 }

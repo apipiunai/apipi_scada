@@ -220,7 +220,7 @@ export default function AlbaranGemini() {
     }
 
     return (
-        <Card props={{ margin: "20px" }}>
+        <Card>
            <style>
   {`
     @keyframes vibrateSoft {

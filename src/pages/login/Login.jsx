@@ -29,21 +29,22 @@ export default function Login() {
             alignItems: 'center', 
             justifyContent: 'center', 
             backgroundColor: theme.background,
-            color: theme.text1
+            color: theme.text1,
         }}>
             <form 
                 onSubmit={handleLogin}
                 style={{ 
                     backgroundColor: theme.card, 
-                    padding: '40px', 
+                    margin: 20,
                     borderRadius: '15px', 
                     boxShadow: '0 10px 25px rgba(0,0,0,0.1)',
-                    width: '100%',
+                    width: 'calc(100% - 40px)',
                     maxWidth: '400px',
                     display: 'flex',
                     flexDirection: 'column',
                     gap: '20px',
-                    border: `1px solid ${theme.border1}`
+                    border: `1px solid ${theme.border1}`,
+                    padding: 20
                 }}
             >
                 <div style={{ textAlign: 'center', marginBottom: '10px' }}>

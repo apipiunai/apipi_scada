@@ -58,7 +58,7 @@ export default function Plano() {
 
     const Hitbox = ({ x, y, width, height, id }) => {
         return (
-            <div className="hitbox-blink" onClick={() => setSelected(id)} onMouseOver={() => setOver(id)} onMouseLeave={() => setOver(null)} style={{cursor: "pointer", width: width, height: height, position: "absolute", top: y, left: x, backgroundColor: "red" }}></div>
+            <div className={selected === id ? "hitbox-blink-selected" : "hitbox-blink"} onClick={() => setSelected(id)} onMouseOver={() => setOver(id)} onMouseLeave={() => setOver(null)} style={{cursor: "pointer", width: width, height: height, position: "absolute", top: y, left: x, backgroundColor: "red" }}></div>
         )
     }
 
@@ -81,6 +81,10 @@ export default function Plano() {
                         cursor: pointer;
                     }
                     .hitbox-blink:hover {
+                        animation: none;
+                        opacity: 0 !important;
+                    }
+                    .hitbox-blink-selected {
                         animation: none;
                         opacity: 0 !important;
                     }

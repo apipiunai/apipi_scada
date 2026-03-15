@@ -58,7 +58,7 @@ export default function GraficoPrensa() {
                     </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
-                {/* <Gemini /> */}
+                <Gemini data={data}/>
                 {data.length > 0 && <Desplegable icon={<DownloadIcon />}>
                 <>
                     <PDF headers={Object.keys(data[0])} data={data} />
@@ -125,6 +125,15 @@ export default function GraficoPrensa() {
                             fillOpacity={1}
                             fill="url(#colorTemp)"
                             name="Temperatura (°C)"
+                        />
+                        <Area
+                            type="monotone"
+                            dataKey="vibracion"
+                            stroke="#ff9800"
+                            strokeWidth={3}
+                            fillOpacity={1}
+                            fill="url(#colorVibracion)"
+                            name="Vibración (mm/s)"
                         />
                     </AreaChart>
                 </ResponsiveContainer>

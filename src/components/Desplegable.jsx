@@ -37,7 +37,7 @@ export default function Desplegable({ icon, children }) {
   return (
     <div style={{ position: "relative", display: "inline-block" }}>
       <div
-        style={{ cursor: "pointer", height: "100%", display: "flex", alignItems: "center" }}
+        style={{ cursor: "pointer", height: "100%", display: "flex", alignItems: "" }}
         ref={triggerRef}
         onClick={() => setOpen((v) => !v)}
       >

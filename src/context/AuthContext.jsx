@@ -24,7 +24,8 @@ export default function AuthProvider({ children }) {
     const paginas = [
         {"page": "Dashboard", "path": "/"},
         {"page": "Albaran", "path": "/albaran"},
-        {"page": "Plano", "path": "/plano"}
+        {"page": "Plano", "path": "/plano"},
+        {"page": "OEE", "path": "/oee"}
     ];
 
     const login = async () => {

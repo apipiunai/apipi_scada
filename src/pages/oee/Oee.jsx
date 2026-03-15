@@ -1,9 +1,10 @@
-
+import LiveCamera from "../../components/LiveCamera";
 
 export default function Oee() {
     return (
-        <div>
-            <h1>OEE</h1>
+
+        <div style={{ display: 'flex', width: '100%', height: '100%'}}>
+            <LiveCamera />
         </div>
     );
 }

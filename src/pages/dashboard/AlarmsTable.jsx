@@ -7,6 +7,7 @@ import Desplegable from '../../components/Desplegable';
 import PDF from '../../components/PDF';
 import Excel from '../../components/Excel';
 import DownloadIcon from '@mui/icons-material/Download';
+import Gemini from '../../components/Gemini';
 
 export default function AlarmsTable() {
     const { theme } = useTheme();
@@ -113,7 +114,9 @@ export default function AlarmsTable() {
                         );
                     })}
                 </div>
-                <div >
+                <div style={{ display: 'flex', alignItems: '' }}>
+
+                <Gemini data={alarms} />
 
                 {alarms.length > 0 && <Desplegable icon={<DownloadIcon />}>
                     <>
