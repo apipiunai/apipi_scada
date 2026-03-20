@@ -1,6 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTheme } from '../../context/ThemeContext';
+import { useIdioma } from '../../context/IdiomaContext';
 import Card from '../../components/Card';
 import Select from '../../components/Select';
 import Desplegable from '../../components/Desplegable';
@@ -11,6 +12,7 @@ import Gemini from '../../components/Gemini';
 
 export default function AlarmsTable() {
     const { theme } = useTheme();
+    const { diccionario } = useIdioma();
     const [alarms, setAlarms] = useState([]);
     const [filters, setFilters] = useState({
         maquina: "",
@@ -21,19 +23,18 @@ export default function AlarmsTable() {
 
     // Configuración de las columnas disponibles (key: ruta en el objeto, label: nombre amigable)
     const availableKeys = [
-        { key: 'id', label: 'ID' },
-        { key: 'maquina.nombre', label: 'Máquina' },
-        { key: 'tipo', label: 'Tipo' },
-        { key: 'estado', label: 'Estado' },
-        { key: 'prioridad', label: 'Prioridad' },
-        { key: 'tiempos.fecha_inicio', label: 'Inicio' },
-        { key: 'turno', label: 'Turno' },
-        { key: 'incidencia.categoria', label: 'Categoría' },
-        { key: 'incidencia.descripcion', label: 'Incidencia' },
-        { key: 'solucion.descripcion', label: 'Solución' }
+        { key: 'maquina.nombre', label: diccionario?.MAQUINA || 'Máquina' },
+        { key: 'tipo', label: diccionario?.TIPO || 'Tipo' },
+        { key: 'estado', label: diccionario?.ESTADO || 'Estado' },
+        { key: 'prioridad', label: diccionario?.PRIORIDAD || 'Prioridad' },
+        { key: 'tiempos.fecha_inicio', label: diccionario?.INICIO || 'Inicio' },
+        { key: 'turno', label: diccionario?.TURNO || 'Turno' },
+        { key: 'incidencia.categoria', label: diccionario?.CATEGORIA || 'Categoría' },
+        { key: 'incidencia.descripcion', label: diccionario?.INCIDENCIA || 'Incidencia' },
+        { key: 'solucion.descripcion', label: diccionario?.SOLUCION || 'Solución' }
     ];
 
-    const [selectedKeys, setSelectedKeys] = useState(['id', 'maquina.nombre', 'tipo', 'prioridad', 'incidencia.descripcion']);
+    const [selectedKeys, setSelectedKeys] = useState(['maquina.nombre', 'tipo', 'prioridad', 'turno', 'incidencia.categoria']);
 
     useEffect(() => {
         fetch(`${import.meta.env.BASE_URL}/alarms.json`)
@@ -114,7 +115,7 @@ export default function AlarmsTable() {
                         );
                     })}
                 </div>
-                <div style={{ display: 'flex', alignItems: '' }}>
+                <div style={{ display: 'flex', alignItems: 'start' }}>
 
                 <Gemini data={alarms} />
 
@@ -129,36 +130,36 @@ export default function AlarmsTable() {
 
             <div style={{ display: 'flex', gap: '10px', marginBottom: '20px', flexWrap: 'wrap' }}>
                 <div style={{ flex: 1, }}>
-                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>MÁQUINA</label>
+                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>{diccionario?.MAQUINA || "MÁQUINA"}</label>
                     <Select
-                        placeholder="Todas las máquinas"
+                        placeholder={diccionario?.["Todas las maquinas"] || "Todas las máquinas"}
                         options={getOptions('maquina.nombre')}
                         value={filters.maquina}
                         setValue={(val) => setFilters(f => ({ ...f, maquina: val }))}
                     />
                 </div>
                 <div style={{ flex: 1, }}>
-                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>TIPO</label>
+                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>{diccionario?.TIPO || "TIPO"}</label>
                     <Select
-                        placeholder="Todos los tipos"
+                        placeholder={diccionario?.["Todos los tipos"] || "Todos los tipos"}
                         options={getOptions('tipo')}
                         value={filters.tipo}
                         setValue={(val) => setFilters(f => ({ ...f, tipo: val }))}
                     />
                 </div>
                 <div style={{ flex: 1, }}>
-                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>PRIORIDAD</label>
+                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>{diccionario?.PRIORIDAD || "PRIORIDAD"}</label>
                     <Select
-                        placeholder="Todas"
+                        placeholder={diccionario?.Todas || "Todas"}
                         options={getOptions('prioridad')}
                         value={filters.prioridad}
                         setValue={(val) => setFilters(f => ({ ...f, prioridad: val }))}
                     />
                 </div>
                 <div style={{ flex: 1, }}>
-                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>TURNO</label>
+                    <label style={{ display: 'block', fontSize: '0.75rem', color: theme.text2, marginBottom: '5px', fontWeight: 'bold' }}>{diccionario?.TURNO || "TURNO"}</label>
                     <Select
-                        placeholder="Todos"
+                        placeholder={diccionario?.Todos || "Todos"}
                         options={getOptions('turno')}
                         value={filters.turno}
                         setValue={(val) => setFilters(f => ({ ...f, turno: val }))}
@@ -168,7 +169,7 @@ export default function AlarmsTable() {
                     onClick={() => setFilters({ maquina: "", tipo: "", prioridad: "", turno: "" })}
                     style={{ alignSelf: 'flex-end', paddingBottom: '12px', color: theme.main1, cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600' }}
                 >
-                    Limpiar
+                    {diccionario?.Limpiar || "Limpiar"}
                 </div>
 
             </div>

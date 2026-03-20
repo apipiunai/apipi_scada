@@ -2,11 +2,13 @@ import { useEffect, useState, useRef } from "react";
 import Card from "../../components/Card";
 import { useTheme } from "../../context/ThemeContext";
 import { useWindowSize } from "../../context/WindowSize";
+import { useIdioma } from "../../context/IdiomaContext";
 
 
 export default function Plano() {
     const { width } = useWindowSize();
     const { theme } = useTheme();
+    const { diccionario } = useIdioma();
     const [selected, setSelected] = useState(null);
     const [over, setOver] = useState(null);
     const [imgWidth, setImgWidth] = useState(0);
@@ -64,8 +66,8 @@ export default function Plano() {
 
 
     const isometricos = {
-        "modulo1.png": { img: "iso_modulo1.png", info: `Este módulo constituye el núcleo de la fuerza bruta y la precisión geométrica de la línea, donde dos robustos robots industriales de alta capacidad de carga se encargan de manipular y posicionar los chasis o componentes base sobre el raíl central. Mientras estos brazos naranjas aseguran la estabilidad de las piezas de gran volumen, una pareja de robots amarillos de alta velocidad realiza tareas de fijación, atornillado y soldadura de precisión en los puntos críticos. Todo el proceso está coordinado por un sistema de control centralizado que permite el intercambio automático de herramientas, garantizando que el esqueleto del producto esté perfectamente ensamblado antes de pasar a la siguiente fase.` },
-        "modulo2.png": { img: "iso_modulo2.png", info: `Este módulo se encarga de la gestión detallada de piezas pequeñas y la validación final del producto mediante un sistema de "kitting" automatizado. El brazo robótico principal selecciona componentes específicos desde una estantería de suministros organizada por colores para alimentar las estaciones de trabajo, mientras los robots secundarios, equipados con sistemas de visión artificial, escanean cada unión y superficie en busca de defectos microscópicos. Este módulo incluye además una zona de acceso técnico con escaleras y paneles de control manual, diseñada para que los operarios puedan realizar ajustes de calibración o mantenimiento preventivo sin interrumpir el flujo continuo de la producción.` }
+        "modulo1.png": { img: "iso_modulo1.png", info: diccionario?.["Modulo 1 info"] || `Este módulo constituye el núcleo de la fuerza bruta y la precisión geométrica de la línea, donde dos robustos robots industriales de alta capacidad de carga se encargan de manipular y posicionar los chasis o componentes base sobre el raíl central. Mientras estos brazos naranjas aseguran la estabilidad de las piezas de gran volumen, una pareja de robots amarillos de alta velocidad realiza tareas de fijación, atornillado y soldadura de precisión en los puntos críticos. Todo el proceso está coordinado por un sistema de control centralizado que permite el intercambio automático de herramientas, garantizando que el esqueleto del producto esté perfectamente ensamblado antes de pasar a la siguiente fase.` },
+        "modulo2.png": { img: "iso_modulo2.png", info: diccionario?.["Modulo 2 info"] || `Este módulo se encarga de la gestión detallada de piezas pequeñas y la validación final del producto mediante un sistema de "kitting" automatizado. El brazo robótico principal selecciona componentes específicos desde una estantería de suministros organizada por colores para alimentar las estaciones de trabajo, mientras los robots secundarios, equipados con sistemas de visión artificial, escanean cada unión y superficie en busca de defectos microscópicos. Este módulo incluye además una zona de acceso técnico con escaleras y paneles de control manual, diseñada para que los operarios puedan realizar ajustes de calibración o mantenimiento preventivo sin interrumpir el flujo continuo de la producción.` }
     }
 
     return (
@@ -92,7 +94,7 @@ export default function Plano() {
             </style>
             <img ref={imgRef} style={{ width: "100%", backgroundColor: "" }} src="plano.png" alt="" />
 
-            {over && <img style={{ width: "100%", backgroundColor: "", opacity: 0.5, position: "absolute", top: 0, left: 0 }} src={over} alt="" />}
+            {(over || selected) && <img style={{ width: "100%", backgroundColor: "", opacity: 0.5, position: "absolute", top: 0, left: 0 }} src={over || selected} alt="" />}
 
             <Hitbox x={imgWidth / 2.4} y={imgHeight / 8} width={imgWidth / 5.8} height={imgHeight / 3.1} id={"modulo1.png"} />
             <Hitbox x={imgWidth / 2.52} y={imgHeight / 2.1} width={imgWidth / 5.1} height={imgHeight / 2.45} id={"modulo2.png"} />

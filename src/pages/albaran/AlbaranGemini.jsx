@@ -6,10 +6,12 @@ import Button from "../../components/Button";
 import LinkIcon from '@mui/icons-material/Link';
 import { useTheme } from "../../context/ThemeContext";
 import { useGemini } from "../../context/GeminiContext";
+import { useIdioma } from "../../context/IdiomaContext";
 
 export default function AlbaranGemini() {
 
     const { theme } = useTheme();
+    const { diccionario } = useIdioma();
     const { apiKey, setApiKey } = useGemini();
     const [response, setResponse] = useState("");
     const [imageBase64, setImageBase64] = useState(null);
@@ -146,7 +148,7 @@ export default function AlbaranGemini() {
     async function processImg() {
         if (!imageBase64) return;
         if (!apiKey) {
-            alert("Por favor, introduce tu API Key de Gemini.");
+            alert(diccionario?.["API Key Gemini"] || "Por favor, introduce tu API Key de Gemini.");
             return;
         }
 
@@ -184,7 +186,7 @@ export default function AlbaranGemini() {
     async function processPdf() {
         if (!pdfBase64) return;
         if (!apiKey) {
-            alert("Por favor, introduce tu API Key de Gemini.");
+            alert(diccionario?.["API Key Gemini"] || "Por favor, introduce tu API Key de Gemini.");
             return;
         }
 
@@ -251,7 +253,7 @@ export default function AlbaranGemini() {
                     <div style={{ display: "flex", gap: "5px", justifyContent: "end", alignItems: "center" }}>
                         <input
                             type="password"
-                            placeholder="API Key de Gemini..."
+                            placeholder={diccionario?.["API Key placeholder"] || "API Key de Gemini..."}
                             value={apiKey || ""}
                             onChange={(e) => setApiKey(e.target.value)}
                             style={{ padding: '8px', borderRadius: '4px', border: "none", backgroundColor: theme.back3 }}
@@ -264,8 +266,8 @@ export default function AlbaranGemini() {
                     </div>
                 </div>
                 <div style={{ display: "flex", gap: "10px", justifyContent: "end", alignItems: "center" }}>
-                    <Button text="Generar desde Imagen" props={{ disabled: loading || !imageBase64 }} action={processImg} />
-                    <Button text="Generar desde PDF" props={{ disabled: loading || !pdfBase64 }} action={processPdf} />
+                    <Button text={diccionario?.["Generar desde Imagen"] || "Generar desde Imagen"} props={{ disabled: loading || !imageBase64 }} action={processImg} />
+                    <Button text={diccionario?.["Generar desde PDF"] || "Generar desde PDF"} props={{ disabled: loading || !pdfBase64 }} action={processPdf} />
                 </div>
             </div>
             <div style={{ display: "flex", gap: "10px", marginBottom: "10px", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>

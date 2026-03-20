@@ -6,9 +6,11 @@ import { useWindowSize } from '../context/WindowSize';
 import IconHover from '../components/IconHover';
 import Desplegable from '../components/Desplegable';
 import { useAuth } from '../context/AuthContext';
+import { useIdioma } from '../context/IdiomaContext';
 
 export default function Layout() {
     const { ThemeComponent, theme } = useTheme();
+    const { IdiomaComponent, diccionario } = useIdioma();
     const location = useLocation();
     const navigate = useNavigate();
     const { width } = useWindowSize();
@@ -20,22 +22,22 @@ export default function Layout() {
     const pantallas = [
         {
             path: "/",
-            name: "Dashboard",
+            name: diccionario?.Dashboard || "Dashboard",
             icon: <Dashboard fontSize="small" />
         },
         {
             path: "/albaran",
-            name: "Albaran",
+            name: diccionario?.Albaran || "Albaran",
             icon: <ReceiptLong fontSize="small" />
         },
         {
             path: "/plano",
-            name: "Plano",
+            name: diccionario?.Plano || "Plano",
             icon: <Map fontSize="small" />
         },
         {
             path: "/oee",
-            name: "OEE",
+            name: diccionario?.OEE || "OEE",
             icon: <Map fontSize="small" />
         }
     ].filter(p => pages?.some(page => page.path === p.path));
@@ -86,14 +88,15 @@ export default function Layout() {
                         </div>
                     </div>
                 )}
-                <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', padding: '0 20px', gap: 10 }}>
+                <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end', padding: '0 20px', gap: 10, alignItems: 'center' }}>
                     <ThemeComponent />
                     <Desplegable icon={<IconHover icon={<AccountCircle />} />}>
                             <div style={{ display: 'flex', flexDirection: 'column' }}>
-                                <IconHover action={() => logout() } icon={<Logout style={{ color: theme.error }}  />} />
+                                <IconHover fontSize="small" action={() => logout() } icon={<div style={{ display: 'flex', alignItems: 'center', gap: 10, color: theme.error }}><Logout style={{ color: theme.error }}  /> {diccionario?.Logout || "Logout"}</div>} />
                             </div>
                     </Desplegable>
                         
+                    <IdiomaComponent />
                     
                 </div>
             </div>

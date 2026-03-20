@@ -3,6 +3,7 @@ import { useWindowSize } from "../context/WindowSize";
 import { useState, useRef, useEffect } from "react";
 import ClickOut from "../utils/ClickOut";
 import { useTheme } from "../context/ThemeContext";
+import { useIdioma } from "../context/IdiomaContext";
 import LinkIcon from "@mui/icons-material/Link";
 import SendIcon from "@mui/icons-material/Send";
 import StorageIcon from "@mui/icons-material/Storage";
@@ -12,6 +13,7 @@ import Spinner from "./Spinner";
 export default function Gemini({ data }) {
 
     const { theme, mode } = useTheme();
+    const { diccionario } = useIdioma();
     const { api_key, setApiKey } = useGemini();
     const { width } = useWindowSize();
     const ref = useRef(null);
@@ -32,7 +34,7 @@ export default function Gemini({ data }) {
             return;
         }
         if (!api_key) {
-            alert("Por favor, introduce tu API Key de Gemini.");
+            alert(diccionario?.["API Key Gemini"] || "Por favor, introduce tu API Key de Gemini.");
             return;
         }
 
@@ -120,7 +122,7 @@ export default function Gemini({ data }) {
                         <div style={{ padding: "10px", borderTop: `1px solid ${theme.border1}`, display: "flex", gap: 10, alignItems: "center" }}>
                             <input
                                 type="password"
-                                placeholder="API Key de Gemini..."
+                                placeholder={diccionario?.["API Key placeholder"] || "API Key de Gemini..."}
                                 value={api_key}
                                 onChange={(e) => setApiKey(e.target.value)}
                                 style={{ flex: 1, padding: "8px", borderRadius: 4, border: "none", background: theme.back2, color: theme.text1, fontSize: 12 }}
@@ -149,7 +151,7 @@ export default function Gemini({ data }) {
                                         whiteSpace: "pre-wrap",
                                     }}
                                 >
-                                    {m.role === "data" ? <span style={{ color: theme.light1, display: "flex", alignItems: "center", gap: "5px" }}><StorageIcon sx={{ fontSize: 16 }} /> Data</span> : m.content}
+                                    {m.role === "data" ? <span style={{ color: theme.light1, display: "flex", alignItems: "center", gap: "5px" }}><StorageIcon sx={{ fontSize: 16 }} /> {diccionario?.Data || "Data"}</span> : m.content}
                                 </div>
                             ))}
                             {loading && (
@@ -166,7 +168,7 @@ export default function Gemini({ data }) {
                         <div style={{ padding: "10px", display: "flex", gap: 8, alignItems: "center" }}>
                             <textarea
                                 rows={1}
-                                placeholder="Pregunta sobre tus datos..."
+                                placeholder={diccionario?.["Pregunta datos"] || "Pregunta sobre tus datos..."}
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyDown={handleKeyDown}

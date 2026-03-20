@@ -13,6 +13,7 @@ import {
 } from 'recharts';
 import Card from "../../components/Card";
 import { useTheme } from "../../context/ThemeContext";
+import { useIdioma } from "../../context/IdiomaContext";
 import PDF from "../../components/PDF";
 import Excel from "../../components/Excel";
 import Desplegable from "../../components/Desplegable";
@@ -22,6 +23,7 @@ import { useWindowSize } from '../../context/WindowSize';
 
 export default function GraficoPrensa() {
     const { theme } = useTheme();
+    const { diccionario } = useIdioma();
     const [data, setData] = useState([]);
 
     const {width} = useWindowSize();
@@ -50,11 +52,15 @@ export default function GraficoPrensa() {
                 <div style={{ display: 'flex', gap: '15px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
                         <div style={{ width: '12px', height: '12px', borderRadius: '50%', backgroundColor: theme.main1 }}></div>
-                        <span style={{ fontSize: '0.8rem', color: theme.text2 }}>Presión (bar)</span>
+                        <span style={{ fontSize: '0.8rem', color: theme.text2 }}>{diccionario?.["Presion (bar)"] || "Presión (bar)"}</span>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
                         <div style={{ width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#4caf50' }}></div>
-                        <span style={{ fontSize: '0.8rem', color: theme.text2 }}>Temp (°C)</span>
+                        <span style={{ fontSize: '0.8rem', color: theme.text2 }}>{diccionario?.["Temp (C)"] || "Temp (°C)"}</span>
+                    </div>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                        <div style={{ width: '12px', height: '12px', borderRadius: '50%', backgroundColor: '#ff9800' }}></div>
+                        <span style={{ fontSize: '0.8rem', color: theme.text2 }}>{diccionario?.["Vibracion (mm/s)"] || "Vibración (mm/s)"}</span>
                     </div>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -80,6 +86,10 @@ export default function GraficoPrensa() {
                             <linearGradient id="colorTemp" x1="0" y1="0" x2="0" y2="1">
                                 <stop offset="5%" stopColor="#4caf50" stopOpacity={0.3} />
                                 <stop offset="95%" stopColor="#4caf50" stopOpacity={0} />
+                            </linearGradient>
+                            <linearGradient id="colorVibracion" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="5%" stopColor="#ff9800" stopOpacity={0.3} />
+                                <stop offset="95%" stopColor="#ff9800" stopOpacity={0} />
                             </linearGradient>
                         </defs>
                         <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={theme.border1} />
@@ -115,7 +125,7 @@ export default function GraficoPrensa() {
                             strokeWidth={3}
                             fillOpacity={1}
                             fill="url(#colorPresion)"
-                            name="Presión (bar)"
+                            name={diccionario?.["Presion (bar)"] || "Presión (bar)"}
                         />
                         <Area
                             type="monotone"
@@ -124,7 +134,7 @@ export default function GraficoPrensa() {
                             strokeWidth={3}
                             fillOpacity={1}
                             fill="url(#colorTemp)"
-                            name="Temperatura (°C)"
+                            name={diccionario?.["Temp (C)"] || "Temperatura (°C)"}
                         />
                         <Area
                             type="monotone"
@@ -133,7 +143,7 @@ export default function GraficoPrensa() {
                             strokeWidth={3}
                             fillOpacity={1}
                             fill="url(#colorVibracion)"
-                            name="Vibración (mm/s)"
+                            name={diccionario?.["Vibracion (mm/s)"] || "Vibración (mm/s)"}
                         />
                     </AreaChart>
                 </ResponsiveContainer>

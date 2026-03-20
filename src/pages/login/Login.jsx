@@ -2,11 +2,13 @@ import { useState } from 'react';
 import { useTheme } from '../../context/ThemeContext';
 import { useAuth } from '../../context/AuthContext';
 import { useNavigate } from 'react-router-dom';
+import { useIdioma } from '../../context/IdiomaContext';
 
 export default function Login() {
     const { theme } = useTheme();
     const { login } = useAuth();
     const navigate = useNavigate();
+    const { idioma, diccionario } = useIdioma();
     const [credentials, setCredentials] = useState({ username: '', password: '' });
 
     const handleChange = (e) => {
@@ -48,12 +50,12 @@ export default function Login() {
                 }}
             >
                 <div style={{ textAlign: 'center', marginBottom: '10px' }}>
-                    <h1 style={{ fontSize: '2rem', margin: '0 0 10px 0', color: theme.main1 }}>Welcome Back</h1>
-                    <p style={{ color: theme.text2, margin: 0 }}>Please enter your details</p>
+                    <h1 style={{ fontSize: '2rem', margin: '0 0 10px 0', color: theme.main1 }}>{diccionario?.["Welcome back"]}</h1>
+                    <p style={{ color: theme.text2, margin: 0 }}>{diccionario?.["Please enter your details"]}</p>
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                    <label style={{ fontSize: '0.9rem', fontWeight: '500' }}>Username</label>
+                    <label style={{ fontSize: '0.9rem', fontWeight: '500' }}>{diccionario?.Username}</label>
                     <input 
                         type="text" 
                         name="username"
@@ -72,7 +74,7 @@ export default function Login() {
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                    <label style={{ fontSize: '0.9rem', fontWeight: '500' }}>Password</label>
+                    <label style={{ fontSize: '0.9rem', fontWeight: '500' }}>{diccionario?.Password}</label>
                     <input 
                         type="password" 
                         name="password"
@@ -106,7 +108,7 @@ export default function Login() {
                     onMouseEnter={(e) => e.target.style.opacity = '0.9'}
                     onMouseLeave={(e) => e.target.style.opacity = '1'}
                 >
-                    Sign In
+                    {diccionario?.Login}
                 </button>
             </form>
         </div>

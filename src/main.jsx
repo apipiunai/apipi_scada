@@ -6,6 +6,7 @@ import ThemeProvider from './context/ThemeContext'
 import WindowSizeProvider from './context/WindowSize'
 import AuthProvider from './context/AuthContext'
 import GeminiProvider from './context/GeminiContext'
+import IdiomaProvider from './context/IdiomaContext'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,7 +14,9 @@ createRoot(document.getElementById('root')).render(
       <GeminiProvider>
         <WindowSizeProvider>
           <ThemeProvider>
-            <App />
+            <IdiomaProvider>
+              <App />
+            </IdiomaProvider>
           </ThemeProvider>
       </WindowSizeProvider>
       </GeminiProvider>
