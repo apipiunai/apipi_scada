@@ -1,5 +1,6 @@
 [
         {
+            "tag": "MACH-1",
             "blue": "machine1.png",
             "name": "Zona de preparación",
             "img": "isometrico1.png",
@@ -7,6 +8,7 @@
             "desc": "Área dedicada a la recepción y clasificación de materias primas. En esta fase se realiza un control de calidad inicial del tejido, verificando gramaje, color y textura antes de su entrada en la línea de producción. Cuenta con sistemas de desbobinado automático y mesas de inspección retroiluminadas para detectar posibles taras en el material."
         },
         {
+            "tag": "MACH-2",
             "blue": "machine2.png",
             "name": "Zona de medición",
             "img": "isometrico2.png",
@@ -14,6 +16,7 @@
             "desc": "Estación de alta precisión donde se determinan las dimensiones exactas necesarias para el aprovechamiento óptimo del tejido. Utiliza sensores láser y sistemas de visión artificial para calcular el anidamiento (nesting) más eficiente, minimizando el desperdicio de material y enviando las coordenadas directas al sistema de corte digital."
         },
         {
+            "tag": "MACH-3",
             "blue": "machine3.png",
             "name": "Zona de corte",
             "img": "isometrico3.png",
@@ -21,6 +24,7 @@
             "desc": "Núcleo tecnológico equipado con máquinas de corte CNC por cuchilla oscilante o láser. Esta zona garantiza una repetibilidad perfecta en las piezas cortadas, permitiendo geometrías complejas con tolerancias menores a 0.5mm. El sistema está integrado con la base de datos de patrones para cambios de modelo instantáneos sin intervención manual."
         },
         {
+            "tag": "MACH-4",
             "blue": "machine4.png",
             "name": "Zona de impresión",
             "img": "isometrico4.png",
@@ -28,6 +32,7 @@
             "desc": "Sección de personalización técnica donde se aplican gráficos, logotipos o códigos de trazabilidad mediante sublimación digital o serigrafía automatizada. Cuenta con túneles de secado UV y sistemas de registro por cámara que aseguran el alineamiento perfecto de la impresión sobre las piezas previamente cortadas."
         },
         {
+            "tag": "MACH-5",
             "blue": "machine5.png",
             "name": "Zona de costura",
             "img": "isometrico5.png",
@@ -35,6 +40,7 @@
             "desc": "Línea de ensamblaje principal compuesta por estaciones de costura robótica y puestos ergonómicos asistidos. Se utilizan hilos de alta resistencia y puntadas programables para asegurar la integridad estructural del producto. Sensores de rotura de hilo e IA de inspección supervisan cada unión en tiempo real para descartar defectos de fabricación."
         },
         {
+            "tag": "MACH-6",
             "blue": "machine6.png",
             "name": "Zona de planchado",
             "img": "isometrico6.png",
@@ -42,6 +48,7 @@
             "desc": "Fase de acabado térmico y conformado. Mediante la aplicación controlada de vapor y presión, se eliminan arrugas y se estabilizan las costuras. El sistema permite regular la temperatura y el tiempo de exposición según el tipo de tejido, garantizando que el producto final mantenga su forma y propiedades estéticas tras el embalaje."
         },
         {
+            "tag": "MACH-7",
             "blue": "machine7.png",
             "name": "Zona de empaquetado",
             "img": "isometrico7.png",
