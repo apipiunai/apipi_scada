@@ -2,1400 +2,1400 @@
     {
         "id": 1,
         "fecha": "2026-03-02",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Mantenimiento preventivo correctivo"
     },
     {
         "id": 2,
         "fecha": "2026-03-02",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Falta de repuestos en almacén"
     },
     {
         "id": 3,
         "fecha": "2026-03-03",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Cambio de filtros hidráulicos"
     },
     {
         "id": 4,
         "fecha": "2026-03-04",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión de bandas transportadoras"
     },
     {
         "id": 5,
         "fecha": "2026-03-05",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Ajuste de tensión mecánica"
     },
     {
         "id": 6,
         "fecha": "2026-03-05",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Sin disponibilidad de técnicos"
     },
     {
         "id": 7,
         "fecha": "2026-03-06",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Mantenimiento preventivo menor"
     },
     {
         "id": 8,
         "fecha": "2026-03-07",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Lubricación de rodamientos"
     },
     {
         "id": 9,
         "fecha": "2026-03-08",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Cancelado por parada de planta no programada"
     },
     {
         "id": 10,
         "fecha": "2026-03-09",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Calibración de sensores de temperatura"
     },
     {
         "id": 11,
         "fecha": "2026-03-10",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Reemplazo de válvulas neumáticas"
     },
     {
         "id": 12,
         "fecha": "2026-03-10",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Limpieza de paneles eléctricos"
     },
     {
         "id": 13,
         "fecha": "2026-03-11",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Inspección visual de estructuras"
     },
     {
         "id": 14,
         "fecha": "2026-03-12",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Prioridad cambiada a línea 1"
     },
     {
         "id": 15,
         "fecha": "2026-03-13",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Mantenimiento de unidad hidráulica"
     },
     {
         "id": 16,
         "fecha": "2026-03-14",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Sustitución de mangueras de presión"
     },
     {
         "id": 17,
         "fecha": "2026-03-15",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Alineación de ejes del motor principal"
     },
     {
         "id": 18,
         "fecha": "2026-03-15",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Limpieza profunda de conductos"
     },
     {
         "id": 19,
         "fecha": "2026-03-16",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "cancelado",
         "desc": "Componentes defectuosos del proveedor"
     },
     {
         "id": 20,
         "fecha": "2026-03-17",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión de sistema de refrigeración"
     },
     {
         "id": 21,
         "fecha": "2026-03-18",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Cambio de aceite motor secundario"
     },
     {
         "id": 22,
         "fecha": "2026-03-19",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Verificación de guardas de seguridad"
     },
     {
         "id": 23,
         "fecha": "2026-03-20",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Mantenimiento preventivo de cierre"
     },
     {
         "id": 24,
         "fecha": "2026-03-20",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "cancelado",
         "desc": "Cancelado por baja producción"
     },
     {
         "id": 25,
         "fecha": "2026-03-21",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Revisión de cuadro de mandos"
     },
     {
         "id": 26,
         "fecha": "2026-03-22",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Ajuste de presiones neumáticas"
     },
     {
         "id": 27,
         "fecha": "2026-03-23",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Cambio de fusibles y relés térmicos"
     },
     {
         "id": 28,
         "fecha": "2026-03-24",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Inspección de soldaduras en bastidor"
     },
     {
         "id": 29,
         "fecha": "2026-03-25",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Traslado de recursos a emergencia"
     },
     {
         "id": 30,
         "fecha": "2026-03-26",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Limpieza de cilindros neumáticos"
     },
     {
         "id": 31,
         "fecha": "2026-03-27",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Mantenimiento software PLC"
     },
     {
         "id": 32,
         "fecha": "2026-03-28",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión general fin de mes"
     },
     {
         "id": 33,
         "fecha": "2026-03-29",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Cambio de rodillos guía"
     },
     {
         "id": 34,
         "fecha": "2026-03-30",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Decisión de gerencia de planta"
     },
     {
         "id": 35,
         "fecha": "2026-03-31",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Revisión de sistemas de evacuación"
     },
     {
         "id": 36,
         "fecha": "2026-04-01",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Mantenimiento preventivo mensual"
     },
     {
         "id": 37,
         "fecha": "2026-04-01",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Cierre de órdenes de marzo"
     },
     {
         "id": 38,
         "fecha": "2026-04-02",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Revisión de sistema eléctrico"
     },
     {
         "id": 39,
         "fecha": "2026-04-03",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Cambio de filtros de aire"
     },
     {
         "id": 40,
         "fecha": "2026-04-03",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Falta de repuestos críticos"
     },
     {
         "id": 41,
         "fecha": "2026-04-04",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Ajuste de tensión en cadenas"
     },
     {
         "id": 42,
         "fecha": "2026-04-05",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Sustitución de sensores de proximidad"
     },
     {
         "id": 43,
         "fecha": "2026-04-06",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Mantenimiento a bombas de vacío"
     },
     {
         "id": 44,
         "fecha": "2026-04-07",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Limpieza de torres de enfriamiento"
     },
     {
         "id": 45,
         "fecha": "2026-04-07",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Calibración de manómetros"
     },
     {
         "id": 46,
         "fecha": "2026-04-08",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Revisión de variadores de frecuencia"
     },
     {
         "id": 47,
         "fecha": "2026-04-09",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Cambio de juntas de estanqueidad"
     },
     {
         "id": 48,
         "fecha": "2026-04-10",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Mantenimiento mayor de motor principal"
     },
     {
         "id": 49,
         "fecha": "2026-04-10",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "cancelado",
         "desc": "Condiciones climáticas adversas"
     },
     {
         "id": 50,
         "fecha": "2026-04-11",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Lubricación automática programada"
     },
     {
         "id": 51,
         "fecha": "2026-04-12",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Inspección de entramado eléctrico"
     },
     {
         "id": 52,
         "fecha": "2026-04-13",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Ajuste de topes mecánicos"
     },
     {
         "id": 53,
         "fecha": "2026-04-13",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Revisión de tablero de fuerza"
     },
     {
         "id": 54,
         "fecha": "2026-04-14",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Cambio de fresas de corte"
     },
     {
         "id": 55,
         "fecha": "2026-04-15",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "cancelado",
         "desc": "Reprogramación por demanda de producción"
     },
     {
         "id": 56,
         "fecha": "2026-04-16",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Mantenimiento de sistema de visión artificial"
     },
     {
         "id": 57,
         "fecha": "2026-04-16",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Purga de circuitos neumáticos"
     },
     {
         "id": 58,
         "fecha": "2026-04-17",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Revisión integral semanal"
     },
     {
         "id": 59,
         "fecha": "2026-04-18",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Desmontaje y limpieza de válvulas"
     },
     {
         "id": 60,
         "fecha": "2026-04-19",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Verificación de niveles de aceite"
     },
     {
         "id": 61,
         "fecha": "2026-04-19",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Cambio de turbinas de ventilación"
     },
     {
         "id": 62,
         "fecha": "2026-04-20",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Rectificación de guías lineales"
     },
     {
         "id": 63,
         "fecha": "2026-04-21",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Mantenimiento preventivo general"
     },
     {
         "id": 64,
         "fecha": "2026-04-22",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Reparación de pinchazos en cableado"
     },
     {
         "id": 65,
         "fecha": "2026-04-22",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Actualización de firmware de PLC"
     },
     {
         "id": 66,
         "fecha": "2026-04-23",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Falta de personal especializado"
     },
     {
         "id": 67,
         "fecha": "2026-04-24",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Reemplazo de pistones neumáticos"
     },
     {
         "id": 68,
         "fecha": "2026-04-25",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Mantenimiento de transportador de rodillos"
     },
     {
         "id": 69,
         "fecha": "2026-04-25",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Análisis de vibraciones"
     },
     {
         "id": 70,
         "fecha": "2026-04-26",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Limpieza de intercambiadores de calor"
     },
     {
         "id": 71,
         "fecha": "2026-04-27",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Ajuste de frenos electromagnéticos"
     },
     {
         "id": 72,
         "fecha": "2026-04-28",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Preparación de línea para cierre de mes"
     },
     {
         "id": 73,
         "fecha": "2026-04-28",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión de prensa hidráulica"
     },
     {
         "id": 74,
         "fecha": "2026-04-29",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Cambio de correas trapezoidales"
     },
     {
         "id": 75,
         "fecha": "2026-04-30",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Inspección de fin de mes"
     },
     {
         "id": 76,
         "fecha": "2026-04-30",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Cancelado por festivo"
     },
     {
         "id": 77,
         "fecha": "2026-05-01",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Mantenimiento preventivo mayo"
     },
     {
         "id": 78,
         "fecha": "2026-05-01",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Revisión post-parada festiva"
     },
     {
         "id": 79,
         "fecha": "2026-05-02",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Calibración de balanzas dosificadoras"
     },
     {
         "id": 80,
         "fecha": "2026-05-02",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Limpieza de circuitos de refrigeración"
     },
     {
         "id": 81,
         "fecha": "2026-05-03",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Revisión de seguros mecánicos"
     },
     {
         "id": 82,
         "fecha": "2026-05-04",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Mantenimiento de sistemas de extractores"
     },
     {
         "id": 83,
         "fecha": "2026-05-04",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Sustitución de contactores"
     },
     {
         "id": 84,
         "fecha": "2026-05-05",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Ajuste de válvulas reguladoras de flujo"
     },
     {
         "id": 85,
         "fecha": "2026-05-06",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Inspección de recipients a presión"
     },
     {
         "id": 86,
         "fecha": "2026-05-07",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Revisión de sistema anti-incendios"
     },
     {
         "id": 87,
         "fecha": "2026-05-07",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Mantenimiento predictivo (termografía)"
     },
     {
         "id": 88,
         "fecha": "2026-05-08",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Cambio de aceite en reductores"
     },
     {
         "id": 89,
         "fecha": "2026-05-09",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Revisión de comederos y descargadores"
     },
     {
         "id": 90,
         "fecha": "2026-05-10",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Limpieza de paneles solares de techo"
     },
     {
         "id": 91,
         "fecha": "2026-05-10",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Verificación de parámetros de operación"
     },
     {
         "id": 92,
         "fecha": "2026-05-11",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Mantenimiento de unidades de potencia"
     },
     {
         "id": 93,
         "fecha": "2026-05-12",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Alineación láser de tren de rodaje"
     },
     {
         "id": 94,
         "fecha": "2026-05-13",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Reemplazo de lámparas de inspección"
     },
     {
         "id": 95,
         "fecha": "2026-05-14",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Mantenimiento de dosificadores automáticos"
     },
     {
         "id": 96,
         "fecha": "2026-05-14",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de sistemas de seguridad IoT"
     },
     {
         "id": 97,
         "fecha": "2026-05-15",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Chequeo de minuteros y temporizadores"
     },
     {
         "id": 98,
         "fecha": "2026-05-16",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Lubricación de guías deslizantes"
     },
     {
         "id": 99,
         "fecha": "2026-05-17",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Revisión de gatos hidráulicos"
     },
     {
         "id": 100,
         "fecha": "2026-05-17",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Mantenimiento de sistemas de etiquetado"
     },
     {
         "id": 101,
         "fecha": "2026-03-02",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión de aspiración central"
     },
     {
         "id": 102,
         "fecha": "2026-03-06",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Cancelado por storm"
     },
     {
         "id": 103,
         "fecha": "2026-03-09",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Ajuste de reguladores"
     },
     {
         "id": 104,
         "fecha": "2026-03-12",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Cambio de aceite térmico"
     },
     {
         "id": 105,
         "fecha": "2026-03-16",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "cancelado",
         "desc": "Sin presupuesto aprobado"
     },
     {
         "id": 106,
         "fecha": "2026-03-19",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Mantenimiento de tolva de carga"
     },
     {
         "id": 107,
         "fecha": "2026-03-22",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Revisión de bombas dosificadoras"
     },
     {
         "id": 108,
         "fecha": "2026-03-25",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Sustitución de cableado fotocélulas"
     },
     {
         "id": 109,
         "fecha": "2026-03-28",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Ajuste de embragues"
     },
     {
         "id": 110,
         "fecha": "2026-03-31",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Reprogramado para abril"
     },
     {
         "id": 111,
         "fecha": "2026-04-02",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Mantenimiento de sistemas de reject"
     },
     {
         "id": 112,
         "fecha": "2026-04-05",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Limpieza de ejes y roscas"
     },
     {
         "id": 113,
         "fecha": "2026-04-08",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de válvulas solenoides"
     },
     {
         "id": 114,
         "fecha": "2026-04-11",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Incompatibilidad de horarios"
     },
     {
         "id": 115,
         "fecha": "2026-04-14",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Cambio de pinzas de sujeción"
     },
     {
         "id": 116,
         "fecha": "2026-04-17",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Inspección de tuberías de aire comprimido"
     },
     {
         "id": 117,
         "fecha": "2026-04-20",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de tornillos sin fin"
     },
     {
         "id": 118,
         "fecha": "2026-04-23",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Calibración de equipos de medida"
     },
     {
         "id": 119,
         "fecha": "2026-04-26",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Sustitución de rótulas y bieletas"
     },
     {
         "id": 120,
         "fecha": "2026-04-29",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Mantenimiento de tolvas vibrantes"
     },
     {
         "id": 121,
         "fecha": "2026-05-02",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Revisión de puertas cortafuegos"
     },
     {
         "id": 122,
         "fecha": "2026-05-05",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Ajuste de finales de carrera"
     },
     {
         "id": 123,
         "fecha": "2026-05-08",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Mantenimiento de sistemas de pesaje"
     },
     {
         "id": 124,
         "fecha": "2026-05-11",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de cuadros de automática"
     },
     {
         "id": 125,
         "fecha": "2026-05-14",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Limpieza de válvulas de retención"
     },
     {
         "id": 126,
         "fecha": "2026-05-17",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Revisión de engranajes reductores"
     },
     {
         "id": 127,
         "fecha": "2026-03-03",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Mantenimiento de compresor"
     },
     {
         "id": 128,
         "fecha": "2026-03-07",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Cambio de rejillas de ventilación"
     },
     {
         "id": 129,
         "fecha": "2026-03-11",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Ajuste de tensión de correas"
     },
     {
         "id": 130,
         "fecha": "2026-03-14",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "cancelado",
         "desc": "Repuestos en tránsito retrasados"
     },
     {
         "id": 131,
         "fecha": "2026-03-18",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Inspección de tanques de almacenamiento"
     },
     {
         "id": 132,
         "fecha": "2026-03-21",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Mantenimiento de mesas giratorias"
     },
     {
         "id": 133,
         "fecha": "2026-03-24",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Cambio de válvulas de seguridad"
     },
     {
         "id": 134,
         "fecha": "2026-03-27",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Revisión de sistemas de alimentación"
     },
     {
         "id": 135,
         "fecha": "2026-03-30",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Emergencia en otra área"
     },
     {
         "id": 136,
         "fecha": "2026-04-01",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Ajuste de rampas de acceso"
     },
     {
         "id": 137,
         "fecha": "2026-04-04",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Cambio de bearing de eje principal"
     },
     {
         "id": 138,
         "fecha": "2026-04-07",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de sistemas de envasado"
     },
     {
         "id": 139,
         "fecha": "2026-04-10",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Limpieza de tambores magnéticos"
     },
     {
         "id": 140,
         "fecha": "2026-04-13",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Mantenimiento de paletizadores"
     },
     {
         "id": 141,
         "fecha": "2026-04-16",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Revisión de encoders"
     },
     {
         "id": 142,
         "fecha": "2026-04-19",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Ajuste de topes neumáticos"
     },
     {
         "id": 143,
         "fecha": "2026-04-22",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Sustitución de mordazas"
     },
     {
         "id": 144,
         "fecha": "2026-04-25",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "en progreso",
         "desc": "Revisión de sistemas desellado"
     },
     {
         "id": 145,
         "fecha": "2026-04-28",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Mantenimiento de cintas teflonadas"
     },
     {
         "id": 146,
         "fecha": "2026-05-01",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de estaciones de trabajo"
     },
     {
         "id": 147,
         "fecha": "2026-05-04",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Cambio de cartuchos de filtros"
     },
     {
         "id": 148,
         "fecha": "2026-05-07",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Mantenimiento de sistemas de tracedad"
     },
     {
         "id": 149,
         "fecha": "2026-05-10",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Ajuste de sistemas de tensado"
     },
     {
         "id": 150,
         "fecha": "2026-05-13",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de equipos de marcadeo"
     },
     {
         "id": 151,
         "fecha": "2026-05-16",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Mantenimiento de extrusoras"
     },
     {
         "id": 152,
         "fecha": "2026-03-04",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Limpieza de silos"
     },
     {
         "id": 153,
         "fecha": "2026-03-08",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Ajuste de pressostatos"
     },
     {
         "id": 154,
         "fecha": "2026-03-13",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Cambio de sellos mecánicos"
     },
     {
         "id": 155,
         "fecha": "2026-03-17",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "cancelado",
         "desc": "Falla en el suministro eléctrico planeado"
     },
     {
         "id": 156,
         "fecha": "2026-03-20",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Mantenimiento de molinos"
     },
     {
         "id": 157,
         "fecha": "2026-03-23",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión de sistemas de grafitado"
     },
     {
         "id": 158,
         "fecha": "2026-03-26",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "cancelado",
         "desc": "Orden cancelada por el cliente"
     },
     {
         "id": 159,
         "fecha": "2026-03-29",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Inspección de antenas de red wifi industrial"
     },
     {
         "id": 160,
         "fecha": "2026-04-02",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Revisión de sistemas de apilado"
     },
     {
         "id": 161,
         "fecha": "2026-04-06",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Cambio de reluctancias"
     },
     {
         "id": 162,
         "fecha": "2026-04-09",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Mantenimiento de tornos"
     },
     {
         "id": 163,
         "fecha": "2026-04-12",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Revisión de mandriles"
     },
     {
         "id": 164,
         "fecha": "2026-04-15",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Ajuste de carros de transporte"
     },
     {
         "id": 165,
         "fecha": "2026-04-18",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Mantenimiento de husillos"
     },
     {
         "id": 166,
         "fecha": "2026-04-21",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Cambio de herramientas de corte"
     },
     {
         "id": 167,
         "fecha": "2026-04-24",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Revisión de sistemas de refrigeración de corte"
     },
     {
         "id": 168,
         "fecha": "2026-04-27",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Limpieza de chipotes"
     },
     {
         "id": 169,
         "fecha": "2026-04-30",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Mantenimiento de centros de mecanizado"
     },
     {
         "id": 170,
         "fecha": "2026-05-03",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Revisión de robots colaborativos"
     },
     {
         "id": 171,
         "fecha": "2026-05-06",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Mantenimiento de sistemas AGV"
     },
     {
         "id": 172,
         "fecha": "2026-05-09",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Cambio de baterías de backup"
     },
     {
         "id": 173,
         "fecha": "2026-05-12",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Revisión de track de robots"
     },
     {
         "id": 174,
         "fecha": "2026-05-15",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "en progreso",
         "desc": "Mantenimiento de sensores LIDAR"
     },
     {
         "id": 175,
         "fecha": "2026-05-18",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Actualización de mapas de navegación"
     },
     {
         "id": 176,
         "fecha": "2026-05-20",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Revisión de sistemas de purga"
     },
     {
         "id": 177,
         "fecha": "2026-05-22",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Mantenimiento de secaderos"
     },
     {
         "id": 178,
         "fecha": "2026-05-24",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Cambio de resistencias calefactoras"
     },
     {
         "id": 179,
         "fecha": "2026-05-26",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Revisión de aislamiento térmico"
     },
     {
         "id": 180,
         "fecha": "2026-05-28",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "planificado",
         "desc": "Mantenimiento de hornos"
     },
     {
         "id": 181,
         "fecha": "2026-05-30",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de sistemas de pigmentación"
     },
     {
         "id": 182,
         "fecha": "2026-05-31",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Preparación cierre mayo"
     },
     {
         "id": 183,
         "fecha": "2026-03-01",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Revisión general inicio de mes"
     },
     {
         "id": 184,
         "fecha": "2026-03-05",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Ajuste de raspadores"
     },
     {
         "id": 185,
         "fecha": "2026-03-10",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Cambio de retenes"
     },
     {
         "id": 186,
         "fecha": "2026-03-15",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "cancelado",
         "desc": "Falta de tiempo en turnaround"
     },
     {
         "id": 187,
         "fecha": "2026-03-20",
-        "linea": "linea 2",
+        "linea": "2",
         "state": "finalizado",
         "desc": "Mantenimiento de centrifugas"
     },
     {
         "id": 188,
         "fecha": "2026-03-25",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "finalizado",
         "desc": "Revisión de tamices vibratorios"
     },
     {
         "id": 189,
         "fecha": "2026-03-30",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Limpieza de tractores de cadena"
     },
     {
         "id": 190,
         "fecha": "2026-04-04",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "en progreso",
         "desc": "Mantenimiento de mezcladores"
     },
     {
         "id": 191,
         "fecha": "2026-04-09",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "finalizado",
         "desc": "Revisión de reactores"
     },
     {
         "id": 192,
         "fecha": "2026-04-14",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Cambio de agitadores"
     },
     {
         "id": 193,
         "fecha": "2026-04-19",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "en progreso",
         "desc": "Mantenimiento de homogeneizadores"
     },
     {
         "id": 194,
         "fecha": "2026-04-24",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Revisión de pasteurizadores"
     },
     {
         "id": 195,
         "fecha": "2026-04-29",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "finalizado",
         "desc": "Limpieza de intercambiadores de placas"
     },
     {
         "id": 196,
         "fecha": "2026-05-04",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Mantenimiento de sistemas CIP"
     },
     {
         "id": 197,
         "fecha": "2026-05-09",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Revisión de bombas peristálticas"
     },
     {
         "id": 198,
         "fecha": "2026-05-14",
-        "linea": "linea 1",
+        "linea": "1",
         "state": "planificado",
         "desc": "Mantenimiento de llenadoras"
     },
     {
         "id": 199,
         "fecha": "2026-05-19",
-        "linea": "linea 3",
+        "linea": "3",
         "state": "planificado",
         "desc": "Revisión de tapadoras"
     },
     {
         "id": 200,
         "fecha": "2026-05-24",
-        "linea": "linea 4",
+        "linea": "4",
         "state": "planificado",
         "desc": "Mantenimiento de etiquetadoras"
     }

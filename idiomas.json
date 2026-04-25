@@ -1,5 +1,5 @@
 {
-    "es": {
+    "español": {
         "Welcome back": "Bienvenido de nuevo",
         "Please enter your details": "Por favor introduce tus datos",
         "Username": "Usuario",
@@ -7,7 +7,6 @@
         "Password": "Contraseña",
         "Enter your password": "Introduce tu contraseña",
         "Login": "Iniciar Sesión",
-        "Dashboard": "Dashboard",
         "Albaran": "Albarán",
         "Plano": "Plano",
         "OEE": "OEE",
@@ -60,7 +59,7 @@
         "gran_total": "Total Factura",
         "moneda": "Moneda"
     },
-    "en": {
+    "english": {
         "Welcome back": "Welcome back",
         "Please enter your details": "Please enter your details",
         "Username": "Username",
@@ -68,7 +67,6 @@
         "Password": "Password",
         "Enter your password": "Enter your password",
         "Login": "Login",
-        "Dashboard": "Dashboard",
         "Albaran": "Delivery Note",
         "Plano": "Plan",
         "OEE": "OEE",
