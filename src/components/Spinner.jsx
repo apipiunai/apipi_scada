@@ -3,7 +3,7 @@ import { useTheme } from '../context/ThemeContext';
 export default function Spinner({ size = 40, color }) {
     const { theme } = useTheme();
 
-    const spinnerColor = color || theme.main1;
+    const spinnerColor = color || theme.main;
 
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
@@ -19,7 +19,7 @@ export default function Spinner({ size = 40, color }) {
                 style={{
                     width: `${size}px`,
                     height: `${size}px`,
-                    border: `4px solid ${theme.border1}`,
+                    border: `4px solid ${theme.border}`,
                     borderTop: `4px solid ${spinnerColor}`,
                     borderRadius: '50%',
                     animation: 'spin 1s linear infinite'

@@ -90,7 +90,7 @@ export default function Gemini({ data }) {
     return (
         <div>
             <img
-                onClick={() => {setOpen((v) => !v); handleCargarDatos(); }}
+                onClick={() => { setOpen((v) => !v); handleCargarDatos(); }}
                 src={mode === "dark" ? "gemini.png" : "gemini_dark.png"}
                 height={25}
                 width={25}
@@ -105,27 +105,27 @@ export default function Gemini({ data }) {
                         style={width > 600 ? {
                             position: "absolute", right: 0, top: 0,
                             height: "100%", width: "400px",
-                            background: theme.back3, zIndex: 9999,
-                            borderLeft: `1px solid ${theme.border2}`,
+                            background: theme.background, zIndex: 9999,
+                            borderLeft: `1px solid ${theme.border}`,
                             display: "flex", flexDirection: "column",
                         } : {
                             position: "absolute", bottom: 0, left: 10,
                             height: "calc(100% - 10px)", width: "calc(100% - 20px)",
-                            background: theme.back3, zIndex: 9999,
-                            border: `1px solid ${theme.border2}`,
+                            background: theme.background, zIndex: 9999,
+                            border: `1px solid ${theme.border}`,
                             display: "flex", flexDirection: "column",
                             borderRadius: "10px 10px 0 0",
                         }}
                     >
 
-                         {/* Input API Key */}
-                        <div style={{ padding: "10px", borderTop: `1px solid ${theme.border1}`, display: "flex", gap: 10, alignItems: "center" }}>
+                        {/* Input API Key */}
+                        <div style={{ padding: "10px", borderTop: `1px solid ${theme.border}`, display: "flex", gap: 10, alignItems: "center" }}>
                             <input
                                 type="password"
                                 placeholder={diccionario?.["API Key placeholder"] || "API Key de Gemini..."}
                                 value={api_key}
                                 onChange={(e) => setApiKey(e.target.value)}
-                                style={{ flex: 1, padding: "8px", borderRadius: 4, border: "none", background: theme.back2, color: theme.text1, fontSize: 12 }}
+                                style={{ flex: 1, padding: "8px", borderRadius: 4, border: "none", background: theme.card, color: theme.text1, fontSize: 12 }}
                             />
                             <LinkIcon
                                 onClick={() => window.open("https://aistudio.google.com/app/apikey", "_blank")}
@@ -133,16 +133,16 @@ export default function Gemini({ data }) {
                                 sx={{ color: theme.light1, cursor: "pointer" }}
                             />
                         </div>
-                       
+
                         {/* Mensajes */}
-                        <div style={{ flex: 1, overflowY: "auto", padding: "20px 10px", display: "flex", flexDirection: "column", gap: 10, background: theme.back2 }}>
-                            
+                        <div style={{ flex: 1, overflowY: "auto", padding: "20px 10px", display: "flex", flexDirection: "column", gap: 10, background: theme.card }}>
+
                             {messages.map((m, i) => (
                                 <div
                                     key={i}
                                     style={{
                                         alignSelf: m.role === "assistant" ? "flex-start" : "flex-end",
-                                        background: m.role === "user" ? theme.main1 : m.role === "data" ? theme.back3 : m.role === "error" ? theme.error : theme.back3,
+                                        backgroundColor: m.role === "user" ? theme.main : m.role === "data" ? theme.background : m.role === "error" ? theme.error : theme.background,
                                         color: m.role === "user" || m.role === "data" || m.role === "error" ? "#fff" : theme.text1,
                                         borderRadius: 4,
                                         padding: "6px 8px",
@@ -156,13 +156,13 @@ export default function Gemini({ data }) {
                             ))}
                             {loading && (
                                 <div style={{ alignSelf: "center", color: theme.light1, fontSize: 13 }}>
-                                    <Spinner size={20}/>
+                                    <Spinner size={20} />
                                 </div>
                             )}
                             <div ref={messagesEndRef} />
                         </div>
 
-                       
+
 
                         {/* Input mensaje */}
                         <div style={{ padding: "10px", display: "flex", gap: 8, alignItems: "center" }}>
@@ -172,7 +172,7 @@ export default function Gemini({ data }) {
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyDown={handleKeyDown}
-                                style={{ flex: 1, padding: "8px", borderRadius: 8, border: `none`, background: theme.back2, color: theme.text1, resize: "none", fontSize: 12 }}
+                                style={{ flex: 1, padding: "8px", borderRadius: 8, border: `none`, background: theme.card, color: theme.text1, resize: "none", fontSize: 12 }}
                             />
                             <SendIcon
                                 onClick={sendMessage}

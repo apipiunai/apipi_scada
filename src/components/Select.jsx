@@ -8,7 +8,7 @@ export default function Select({ options, value = "", placeholder = "select an o
                 select.kentu-custom-select {
                     appearance: base-select;
                     flex: 1;
-                    border: 1px solid ${theme.border1};
+                    border: 1px solid ${theme.border};
                     padding: 10px 15px;
                     border-radius: 8px;
                     transition: all 0.3s ease;
@@ -22,8 +22,8 @@ export default function Select({ options, value = "", placeholder = "select an o
                 
                 select.kentu-custom-select:hover,
                 select.kentu-custom-select:focus {
-                    background: ${theme.back2};
-                    border-color: ${theme.main1};
+                    background: ${theme.card};
+                    border-color: ${theme.main};
                 }
                 
                 select.kentu-custom-select::picker-icon {
@@ -37,7 +37,7 @@ export default function Select({ options, value = "", placeholder = "select an o
                 
                 ::picker(select.kentu-custom-select) {
                     appearance: base-select;
-                    border: 1px solid ${theme.border1};
+                    border: 1px solid ${theme.border};
                     border-radius: 8px;
                     opacity: 0;
                     transition: all 0.3s allow-discrete;
@@ -70,11 +70,11 @@ export default function Select({ options, value = "", placeholder = "select an o
                 }
                 
                 select.kentu-custom-select option:hover {
-                    background-color: ${theme.border1}50;
+                    background-color: ${theme.border}50;
                 }
 
                 select.kentu-custom-select option:checked {
-                    background-color: ${theme.main1};
+                    background-color: ${theme.main};
                     color: white;
                 }
             `}</style>

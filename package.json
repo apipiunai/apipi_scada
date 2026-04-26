@@ -1,5 +1,5 @@
 {
-  "name": "saas",
+  "name": "scada",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,12 +16,15 @@
     "@mui/icons-material": "^7.3.9",
     "@mui/material": "^7.3.9",
     "@react-pdf/renderer": "^4.3.2",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
     "exceljs": "^4.4.0",
     "file-saver": "^2.0.5",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.13.1",
-    "recharts": "^3.8.0"
+    "recharts": "^3.8.0",
+    "three": "^0.183.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",

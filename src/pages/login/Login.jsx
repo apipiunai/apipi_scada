@@ -45,12 +45,12 @@ export default function Login() {
                     display: 'flex',
                     flexDirection: 'column',
                     gap: '20px',
-                    border: `1px solid ${theme.border1}`,
+                    border: `1px solid ${theme.border}`,
                     padding: 20
                 }}
             >
                 <div style={{ textAlign: 'center', marginBottom: '10px' }}>
-                    <h1 style={{ fontSize: '2rem', margin: '0 0 10px 0', color: theme.main1 }}>{diccionario?.["Welcome back"]}</h1>
+                    <h1 style={{ fontSize: '2rem', margin: '0 0 10px 0', color: theme.main }}>{diccionario?.[ "Welcome back" ]}</h1>
                     <p style={{ color: theme.text2, margin: 0 }}>{diccionario?.["Please enter your details"]}</p>
                 </div>
 
@@ -65,7 +65,7 @@ export default function Login() {
                         style={{ 
                             padding: '12px 15px', 
                             borderRadius: '8px', 
-                            border: `1px solid ${theme.border1}`,
+                            border: `1px solid ${theme.border}`,
                             backgroundColor: theme.background,
                             color: theme.text1,
                             outline: 'none'
@@ -84,7 +84,7 @@ export default function Login() {
                         style={{ 
                             padding: '12px 15px', 
                             borderRadius: '8px', 
-                            border: `1px solid ${theme.border1}`,
+                            border: `1px solid ${theme.border}`,
                             backgroundColor: theme.background,
                             color: theme.text1,
                             outline: 'none'
@@ -99,7 +99,7 @@ export default function Login() {
                         padding: '14px', 
                         borderRadius: '8px', 
                         border: 'none', 
-                        backgroundColor: theme.main1, 
+                        backgroundColor: theme.main, 
                         color: 'white', 
                         fontWeight: '600', 
                         cursor: 'pointer',

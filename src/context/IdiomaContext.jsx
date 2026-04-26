@@ -31,7 +31,7 @@ export default function IdiomaProvider({ children }) {
 
     const IdiomaComponent = () => {
         return (
-            <Desplegable icon={<IconHover icon={idioma === "es" ? <img style={{padding: "0px 5px"}} src="es.png" height={20} width={30} alt="" srcset="" /> : idioma === "en" ? <img src="en.png" height={20} width={30} alt="" srcset="" /> : <MoreVert />} />}>
+            <Desplegable icon={<IconHover icon={idioma === "es" ? <img style={{padding: "0px 5px"}} src="es.png" height={20} width={30} alt="" srcset="" /> : idioma === "en" ? <img style={{padding: "0px 5px"}} src="en.png" height={20} width={30} alt="" srcset="" /> : <MoreVert />} />}>
                 <div  style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                     <img src="en.png" onClick={() => setIdioma("en")} style={{cursor: 'pointer'}} height={20} width={30} alt="" srcset="" />
                     <img src="es.png" onClick={() => setIdioma("es")} style={{cursor: 'pointer'}} height={20} width={30} alt="" srcset="" />

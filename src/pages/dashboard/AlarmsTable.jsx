@@ -102,8 +102,8 @@ export default function AlarmsTable() {
                                     fontWeight: '600',
                                     cursor: 'pointer',
                                     transition: 'all 0.2s ease',
-                                    border: `1px solid ${isSelected ? theme.main1 : theme.border1}`,
-                                    backgroundColor: isSelected ? theme.main1 : 'transparent',
+                                    border: `1px solid ${isSelected ? theme.main : theme.border}`,
+                                    backgroundColor: isSelected ? theme.main : 'transparent',
                                     color: isSelected ? 'white' : theme.text2,
                                     display: 'flex',
                                     alignItems: 'center',
@@ -115,7 +115,7 @@ export default function AlarmsTable() {
                         );
                     })}
                 </div>
-                <div style={{ display: 'flex', alignItems: 'start' }}>
+                <div style={{ display: 'flex', alignItems: 'start', justifyContent: 'end', flex: 1 }}>
 
                 <Gemini data={alarms} />
 
@@ -167,17 +167,17 @@ export default function AlarmsTable() {
                 </div>
                 <div
                     onClick={() => setFilters({ maquina: "", tipo: "", prioridad: "", turno: "" })}
-                    style={{ alignSelf: 'flex-end', paddingBottom: '12px', color: theme.main1, cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600' }}
+                    style={{ alignSelf: 'flex-end', paddingBottom: '12px', color: theme.main, cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600' }}
                 >
                     {diccionario?.Limpiar || "Limpiar"}
                 </div>
 
             </div>
 
-            <div style={{ overflowX: 'auto', maxHeight: '400px', borderRadius: '8px', border: `1px solid ${theme.border1}` }}>
+            <div style={{ overflowX: 'auto', maxHeight: '400px', borderRadius: '8px', border: `1px solid ${theme.border}` }}>
                 <table style={{ width: '100%', borderCollapse: 'collapse', backgroundColor: theme.card }}>
                     <thead>
-                        <tr style={{ textAlign: 'left', borderBottom: `2px solid ${theme.border1}`, position: 'sticky', top: 0, backgroundColor: theme.card, zIndex: 10 }}>
+                        <tr style={{ textAlign: 'left', borderBottom: `2px solid ${theme.border}`, position: 'sticky', top: 0, backgroundColor: theme.card, zIndex: 10 }}>
                             {activeColumns.map(col => (
                                 <th key={col.key} style={{ padding: '15px 12px', color: theme.text2, fontWeight: '600', fontSize: '0.85rem' }}>
                                     {col.label}
@@ -190,10 +190,10 @@ export default function AlarmsTable() {
                             <tr
                                 key={alarm.id}
                                 style={{
-                                    borderBottom: `1px solid ${theme.border1}`,
+                                    borderBottom: `1px solid ${theme.border}`,
                                     transition: 'background 0.2s'
                                 }}
-                                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = theme.border1 + '30'}
+                                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = theme.border + '30'}
                                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
                             >
                                 {activeColumns.map(col => {

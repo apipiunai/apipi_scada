@@ -51,7 +51,7 @@ export default function GraficoPrensa() {
                 <h3 style={{ margin: 0, color: theme.text1 }}>Press-A</h3>
                 <div style={{ display: 'flex', gap: '15px' }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                        <div style={{ width: '12px', height: '12px', borderRadius: '50%', backgroundColor: theme.main1 }}></div>
+                        <div style={{ width: '12px', height: '12px', borderRadius: '50%', backgroundColor: theme.main }}></div>
                         <span style={{ fontSize: '0.8rem', color: theme.text2 }}>{diccionario?.["Presion (bar)"] || "Presión (bar)"}</span>
                     </div>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
@@ -80,8 +80,8 @@ export default function GraficoPrensa() {
                     <AreaChart data={data}>
                         <defs>
                             <linearGradient id="colorPresion" x1="0" y1="0" x2="0" y2="1">
-                                <stop offset="5%" stopColor={theme.main1} stopOpacity={0.3} />
-                                <stop offset="95%" stopColor={theme.main1} stopOpacity={0} />
+                                <stop offset="5%" stopColor={theme.main} stopOpacity={0.3} />
+                                <stop offset="95%" stopColor={theme.main} stopOpacity={0} />
                             </linearGradient>
                             <linearGradient id="colorTemp" x1="0" y1="0" x2="0" y2="1">
                                 <stop offset="5%" stopColor="#4caf50" stopOpacity={0.3} />
@@ -92,7 +92,7 @@ export default function GraficoPrensa() {
                                 <stop offset="95%" stopColor="#ff9800" stopOpacity={0} />
                             </linearGradient>
                         </defs>
-                        <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={theme.border1} />
+                        <CartesianGrid strokeDasharray="3 3" vertical={false} stroke={theme.border} />
                         <XAxis
                             dataKey="time"
                             stroke={theme.text2}
@@ -112,7 +112,7 @@ export default function GraficoPrensa() {
                         <Tooltip
                             contentStyle={{
                                 backgroundColor: theme.card,
-                                border: `1px solid ${theme.border1}`,
+                                border: `1px solid ${theme.border}`,
                                 borderRadius: '8px',
                                 boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
                             }}
@@ -121,7 +121,7 @@ export default function GraficoPrensa() {
                         <Area
                             type="monotone"
                             dataKey="presion"
-                            stroke={theme.main1}
+                            stroke={theme.main}
                             strokeWidth={3}
                             fillOpacity={1}
                             fill="url(#colorPresion)"

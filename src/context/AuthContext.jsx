@@ -22,10 +22,10 @@ export default function AuthProvider({ children }) {
     const usuario = {username: "unai", role: "admin"};
 
     const paginas = [
-        {"page": "Dashboard", "path": "/"},
-        {"page": "Albaran", "path": "/albaran"},
-        {"page": "Plano", "path": "/plano"},
-        {"page": "OEE", "path": "/oee"}
+        {"nombre": "Dashboard", "path": "/"},
+        {"nombre": "Documentos", "path": "/documents"},
+        {"nombre": "Plano", "path": "/plano"},
+        {"nombre": "OEE", "path": "/oee"}
     ];
 
     const login = async () => {

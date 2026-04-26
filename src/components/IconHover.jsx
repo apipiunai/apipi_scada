@@ -5,6 +5,8 @@ export default function IconHover({ icon, action }) {
 
     const {theme} = useTheme();
 
+    if (!icon) return null;
+
     const styledIcon = useMemo(() => {
         return cloneElement(icon, {
             onClick: action,
